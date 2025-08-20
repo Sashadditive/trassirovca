@@ -1,0 +1,107 @@
+чтото
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Трассировка партии ВЖ159 — ООО "Центр АТ"</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    img {
+      margin-bottom: 10px;
+    }
+    h1 {
+      font-size: 1.5em;
+      margin-top: 10px;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 20px 0;
+    }
+    th, td {
+      border: 1px solid #000;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    .status-ready {
+      color: green;
+      font-weight: bold;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: "• ";
+      color: #007acc;
+    }
+    a {
+      text-decoration: none;
+      color: #007acc;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 40px;
+      color: #666;
+      font-size: 12px;
+      text-align: center;
+    }
+    .updated {
+      font-style: italic;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header style="text-align: center; margin: 30px 0;">
+      <img src="logo-centrat.png" alt="Логотип Центр АТ" width="150">
+      <h1>Трассировка партии: VZh159-2025-001</h1>
+    </header>
+
+    <main>
+      <table>
+        <tr><th>Показатель</th><th>Значение</th></tr>
+        <tr><td>Марка сплава</td><td>ВЖ159</td></tr>
+        <tr><td>Метод производства</td><td>EIGA</td></tr>
+        <tr><td>Дата выпуска</td><td>01.04.2025</td></tr>
+        <tr><td>Фракция</td><td>15–45 мкм</td></tr>
+        <tr><td>Масса</td><td>5.0 кг</td></tr>
+        <tr><td>Срок годности</td><td>01.04.2027</td></tr>
+        <tr><td>Статус</td><td><strong class="status-ready">Готов к применению</strong></td></tr>
+      </table>
+
+      <h2>Документы по партии</h2>
+      <ul>
+        <li><a href="pasport.pdf" target="_blank">📄 Паспорт качества (PDF)</a></li>
+        <li><a href="him_sostav.pdf" target="_blank">📊 Химический состав (OES, газоанализ)</a></li>
+        <li><a href="SEM.jpg" target="_blank">🔬 Фото частиц (СЭМ)</a></li>
+        <li><a href="granulometr.pdf" target="_blank">📈 Гранулометрический состав</a></li>
+        <li><a href="tu.pdf" target="_blank">📘 Технические условия (ТУ)</a></li>
+      </ul>
+
+      <p class="updated">Данные актуальны на: 05.04.2025</p>
+    </main>
+
+    <footer>
+      ООО «Центр АТ» ©️ 2025 | <a href="mailto:info@centrat.ru">info@centrat.ru</a> | +7 (495) XXX-XX-XX
+    </footer>
+  </div>
+</body>
+</html>
